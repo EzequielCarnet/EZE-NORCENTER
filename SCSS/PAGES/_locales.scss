@@ -1,0 +1,41 @@
+.section{
+    display: grid;
+    position: relative;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;  
+    background-color: #F1F1ED;
+    justify-items: center;
+    height: 70%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+section div{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    align-content: center;
+    
+}
+
+section div img{
+    align-content: center;
+    width: 73%;
+    height: 81%;
+}
+
+
+.malibu{
+    width: 10%;
+}
+

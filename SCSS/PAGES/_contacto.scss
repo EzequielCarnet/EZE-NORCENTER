@@ -1,0 +1,16 @@
+.formulario{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows:30% 30% 30% ;  
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;  
+    background-color: #F1F1ED;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+.mapa{
+     width: 40%;
+}
