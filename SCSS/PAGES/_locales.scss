@@ -2,7 +2,7 @@
     display: grid;
     position: relative;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
     grid-row-gap: 10px;
     grid-column-gap: 10px;  
     background-color: #F1F1ED;
@@ -32,11 +32,6 @@ section div img{
     align-content: center;
     width: 73%;
     height: 81%;
-}
-
-
-.malibu{
-    width: 10%;
 }
 
 div p{
