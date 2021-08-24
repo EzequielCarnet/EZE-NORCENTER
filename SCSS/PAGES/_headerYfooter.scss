@@ -1,5 +1,5 @@
 .Header__fondo{
-    background-image: url("../Imagenes/imagenHeader.jpg");
+    background-image: url("../Imagenes/imagenHeader.png");
     background-size: 100%; 
     background-repeat: no-repeat;
     padding-top: 0%; 
@@ -9,7 +9,7 @@
     }
 
 .header__logo{
-    width:52%;
+    width:70%;
     border-radius: 3em;   
     
 }
@@ -19,7 +19,7 @@
     justify-content: center;
     background-image: linear-gradient(hsla(255, 4%, 81%, 0.61),rgba(3, 30, 43, 0.979) );
     border-radius: 4em;
-    width: 50%;
+    width: 37%;
     padding-top: 1%;
     padding-bottom: 1%;
     
@@ -45,7 +45,7 @@ header a span{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-top: 2%;
+    padding-top: 1%;
     font-family: zeyada;
     font-size: 5rem;
     border-radius: 2%;
