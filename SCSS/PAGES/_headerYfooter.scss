@@ -52,12 +52,13 @@ header a span{
 }
 
 footer{
-     height: 6em;
+     height: 17vh;
      background-color: rgb(41, 40, 39);
      display: flex;
      flex-direction: row;
      justify-content:space-around;
      background-image: linear-gradient( #16222a,#3a6073);
+     
  }
 
 .footer__copy{

@@ -122,7 +122,7 @@ header a span {
 }
 
 footer {
-  height: 6em;
+  height: 17vh;
   background-color: #292827;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,7 +300,7 @@ footer h2 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(210, 139, 25, 0.247)), to(rgba(99, 146, 11, 0.575)));
     background-image: linear-gradient(rgba(210, 139, 25, 0.247), rgba(99, 146, 11, 0.575));
   }
-  .aside__boton .aside__boton__estilo {
+  .aside__boton__estilo {
     font-family: zeyada;
     text-align: center;
     width: 100%;
@@ -355,7 +355,7 @@ footer h2 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 234, 209, 0.247)), to(rgba(131, 117, 103, 0.575)));
     background-image: linear-gradient(rgba(250, 234, 209, 0.247), rgba(131, 117, 103, 0.575));
   }
-  .aside__boton .aside__boton__estilo {
+  .aside__boton__estilo {
     font-family: zeyada;
     font-weight: bold;
     text-align: center;
@@ -365,7 +365,7 @@ footer h2 {
     padding: 0%;
     line-height: 0.5;
   }
-  .aside__boton .formulario {
+  .formulario {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 70%;

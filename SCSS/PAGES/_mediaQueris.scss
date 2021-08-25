@@ -85,7 +85,7 @@ a:hover{
      position:absolute;
      width: 98vw;
      height: 4vh;
-     
+         
 }
 
 .aside__boton{
@@ -99,10 +99,10 @@ a:hover{
      border-radius: 2rem;
      padding: 2%;
      background-image: linear-gradient(hsla(37, 79%, 46%, 0.247),rgba(99, 146, 11, 0.575) );
+}
 
 .aside__boton__estilo{
      font-family: zeyada;
-     // font-weight: bold;
      text-align: center;
      width: 100%;
      color: black;
@@ -112,7 +112,7 @@ a:hover{
      
 }
 }
-}
+
 @media only screen and (max-width:1325px) {
 .header__renovaTuCasa{
      display: absolute;
@@ -135,9 +135,9 @@ h1{
      display:flex;
      position:absolute;
      width: 98vw;
-     height: 4vh;
-     
+     height: 4vh;      
  }
+ 
 .aside__boton{
      position: sticky;
      display: flex;
@@ -149,6 +149,7 @@ h1{
      border-radius: 2rem;
      padding: 2%;
      background-image: linear-gradient(hsla(37, 80%, 90%, 0.247),rgba(131, 117, 103, 0.575) );
+}
 .aside__boton__estilo{
      font-family: zeyada;
      font-weight: bold;
@@ -170,7 +171,7 @@ h1{
      font-size: 1rem;
 
 }
-}
+
 .mapa{
      width: 100%;
 }
