@@ -44,4 +44,4 @@ Este proyecto está bajo la Licencia (ezecarnet)
 
 
 ---
-⌨️ con ❤️ por Ezequiel Carnet 😊
+⌨️ Creado por Ezequiel Carnet 😊
