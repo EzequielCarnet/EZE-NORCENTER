@@ -147,12 +147,17 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 30%;
+}
+
+.footer__p {
+  display: inline-block;
   color: beige;
-  width: 60%;
+  font-size: small;
 }
 
 .footer__redes {
-  width: 59em;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,6 +170,32 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer__sitemap {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul li a {
+  text-decoration: none;
+  border-radius: none;
+}
+
+footer ul li a:hover {
+  position: relative;
+  color: none;
+  -webkit-transform: none;
+          transform: none;
+  font-family: none;
+  font-size: medium;
+  font-weight: bolder;
+  height: 3em;
 }
 
 footer h2 {
@@ -283,22 +314,20 @@ footer h2 {
     height: 4vh;
   }
   .aside__boton {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-    width: 9%;
+    width: 11%;
     height: 82%;
-    margin-left: 77%;
+    margin-left: 82%;
     margin-top: -142%;
-    border-radius: 2rem;
+    color: none;
+    border-color: none;
     padding: 2%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(210, 139, 25, 0.247)), to(rgba(99, 146, 11, 0.575)));
-    background-image: linear-gradient(rgba(210, 139, 25, 0.247), rgba(99, 146, 11, 0.575));
   }
   .aside__boton__estilo {
     font-family: zeyada;
@@ -346,24 +375,12 @@ footer h2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-    width: 30%;
+    width: 15%;
     height: 100%;
     margin-left: 60%;
     margin-top: -150%;
     border-radius: 2rem;
     padding: 2%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 234, 209, 0.247)), to(rgba(131, 117, 103, 0.575)));
-    background-image: linear-gradient(rgba(250, 234, 209, 0.247), rgba(131, 117, 103, 0.575));
-  }
-  .aside__boton__estilo {
-    font-family: zeyada;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    color: black;
-    font-size: 200%;
-    padding: 0%;
-    line-height: 0.5;
   }
   .formulario {
     display: -ms-grid;
@@ -406,7 +423,6 @@ footer h2 {
 .section {
   display: -ms-grid;
   display: grid;
-  position: relative;
   -ms-grid-columns: 20% 20% 20% 20%;
       grid-template-columns: 20% 20% 20% 20%;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

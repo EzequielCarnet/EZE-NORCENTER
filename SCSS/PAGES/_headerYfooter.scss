@@ -65,18 +65,45 @@ footer{
      display: flex;
      justify-content: left;
      align-items: center;
-     color: beige;
-     width: 60%;
+     width: 30%;
+    }
+.footer__p{   
+    display: inline-block; 
+    color: beige;
+    font-size: small;
+     
      
 }
 
 
 .footer__redes{
-    width: 59em;
+    width: 30%;
      display:flex;
      flex-direction: row;
      justify-content:space-around;
      align-items: center;  
+}
+
+.footer__sitemap{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    border-radius: none;
+}
+
+footer ul li a:hover{
+    position:relative;
+    color:none;
+    transform: none;
+    font-family: none;
+    font-size: medium;
+    font-weight: bolder;  
+    height: 3em;
+    
 }
 
 footer h2{

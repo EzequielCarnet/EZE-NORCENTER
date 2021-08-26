@@ -89,16 +89,16 @@ a:hover{
 }
 
 .aside__boton{
-     position: sticky;
+     position: fixed;
      display: flex;
      justify-content: end;
-     width: 9%;
+     width: 11%;
      height: 82%;
-     margin-left: 77%;
+     margin-left: 82%;
      margin-top: -142%; 
-     border-radius: 2rem;
+     color: none;
+     border-color: none;
      padding: 2%;
-     background-image: linear-gradient(hsla(37, 79%, 46%, 0.247),rgba(99, 146, 11, 0.575) );
 }
 
 .aside__boton__estilo{
@@ -142,23 +142,12 @@ h1{
      position: sticky;
      display: flex;
      justify-content: end;
-     width: 30%;
+     width: 15%;
      height: 100%;
      margin-left: 60%;
      margin-top: -150%; 
      border-radius: 2rem;
      padding: 2%;
-     background-image: linear-gradient(hsla(37, 80%, 90%, 0.247),rgba(131, 117, 103, 0.575) );
-}
-.aside__boton__estilo{
-     font-family: zeyada;
-     font-weight: bold;
-     text-align: center;
-     width: 100%;
-     color: black;
-     font-size: 200%;
-     padding:0%;
-     line-height:0.5;
 }
 
 .formulario{
