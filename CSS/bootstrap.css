@@ -3253,10 +3253,7 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
-.btn-outline-info {
-  color: #0dcaf0;
-  border-color: #0dcaf0;
-}
+
 .btn-outline-info:hover {
   color: #000;
   background-color: #0dcaf0;

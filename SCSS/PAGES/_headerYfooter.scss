@@ -191,6 +191,8 @@ footer h2{
          color:rgb(126, 42, 42);
     }
 }
+
+
 @media only screen and (max-width:1325px) {
     .header__renovaTuCasa{
          display: absolute;
@@ -216,8 +218,13 @@ footer h2{
         width: 15%;
         height: 100%;
         margin-left: 60%;
-        margin-top: -160%; 
+        margin-top: -156%; 
         border-radius: 2rem;
         padding: 2%;
    }
+}  
+
+@media screen and (max-width:364px){
+    .aside__boton{ margin-top:-164%;
 }   
+}

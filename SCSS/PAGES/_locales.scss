@@ -19,12 +19,10 @@ section div{
     display: grid;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     justify-items: center;
     background-color: white;
-    align-content: center;
-       
+          
 }
 
 section div img{
@@ -41,6 +39,10 @@ div p{
       text-align:justify;
       color: hsl(0, 8%, 27%);
       margin:2% 10%;
+ }
+
+ button{
+     width: 100%;
  }
 
  @media screen and (min-width:1326px) {   
