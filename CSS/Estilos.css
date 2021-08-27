@@ -44,6 +44,55 @@ img {
   width: 100%;
 }
 
+@media screen and (min-width: 1326px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .aside__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    width: 98vw;
+    height: 4vh;
+  }
+  .aside__boton {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    width: 11%;
+    height: 82%;
+    margin-left: 82%;
+    margin-top: -142%;
+    color: none;
+    border-color: none;
+    padding: 2%;
+  }
+  .aside__boton__estilo {
+    font-family: zeyada;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 300%;
+    padding: 0%;
+    line-height: 0.5;
+  }
+}
+
+@media only screen and (max-width: 1325px) {
+  h1 {
+    font-size: 155%;
+  }
+}
+
 .nosotros__contenedorParrafo {
   height: 100%;
   width: 100%;
@@ -57,6 +106,13 @@ img {
   text-align: justify;
   color: #4a3f3f;
   margin: 2% 25%;
+}
+
+@media only screen and (max-width: 1325px) {
+  .nosotros__texto {
+    font-size: 1rem;
+    margin: 5% 7%;
+  }
 }
 
 .Header__fondo {
@@ -202,29 +258,6 @@ footer h2 {
   font-size: medium;
 }
 
-.formulario {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30% 30%;
-      grid-template-columns: 30% 30%;
-  -ms-grid-rows: 30% 30% 30%;
-      grid-template-rows: 30% 30% 30%;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  background-color: #F1F1ED;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  overflow: hidden;
-  font-size: 2rem;
-}
-
-.mapa {
-  width: 40%;
-}
-
 @media screen and (min-width: 1326px) {
   * {
     margin: 0;
@@ -305,39 +338,6 @@ footer h2 {
     letter-spacing: 0.2cm;
     color: #7e2a2a;
   }
-  .aside__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    width: 98vw;
-    height: 4vh;
-  }
-  .aside__boton {
-    position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 11%;
-    height: 82%;
-    margin-left: 82%;
-    margin-top: -142%;
-    color: none;
-    border-color: none;
-    padding: 2%;
-  }
-  .aside__boton__estilo {
-    font-family: zeyada;
-    text-align: center;
-    width: 100%;
-    color: black;
-    font-size: 300%;
-    padding: 0%;
-    line-height: 0.5;
-  }
 }
 
 @media only screen and (max-width: 1325px) {
@@ -346,15 +346,9 @@ footer h2 {
     margin-top: -39%;
     font-size: 3%;
   }
-  .nosotros__texto {
-    display: inline-block;
-    font-size: 1rem;
-    font-family: mandali;
-    letter-spacing: 1.5px;
-    text-align: justify;
-    color: #4a3f3f;
-    margin: 2% 15%;
-  }
+}
+
+@media only screen and (max-width: 1325px) {
   h1 {
     font-size: 155%;
   }
@@ -378,10 +372,36 @@ footer h2 {
     width: 15%;
     height: 100%;
     margin-left: 60%;
-    margin-top: -150%;
+    margin-top: -160%;
     border-radius: 2rem;
     padding: 2%;
   }
+}
+
+.formulario {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30%;
+      grid-template-columns: 30% 30%;
+  -ms-grid-rows: 30% 30% 30%;
+      grid-template-rows: 30% 30% 30%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  background-color: #F1F1ED;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.mapa {
+  width: 40%;
+}
+
+@media only screen and (max-width: 1325px) {
   .formulario {
     display: -ms-grid;
     display: grid;
@@ -402,7 +422,7 @@ footer h2 {
   }
 }
 
-@media only screen and (max-width: 1135px) {
+@media only screen and (max-width: 1325px) and (max-width: 1135px) {
   .formulario {
     display: -ms-grid;
     display: grid;
@@ -470,11 +490,17 @@ section div img {
 
 div p {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: mandali;
   letter-spacing: 1.5px;
   text-align: justify;
   color: #4a3f3f;
   margin: 2% 10%;
+}
+
+@media screen and (min-width: 1326px) {
+  div p {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=Estilos.css.map */

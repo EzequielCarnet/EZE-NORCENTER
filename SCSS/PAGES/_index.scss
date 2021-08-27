@@ -33,3 +33,50 @@ img{
     width: 100%;
 }
 
+@media screen and (min-width:1326px) {     
+    *{
+         margin: 0;
+         padding: 0;
+         
+}
+    
+    html {
+         font-size: 62.5%;
+}
+.aside__contenedor{
+    display:flex;
+    position:absolute;
+    width: 98vw;
+    height: 4vh;
+        
+}
+
+.aside__boton{
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    width: 11%;
+    height: 82%;
+    margin-left: 82%;
+    margin-top: -142%; 
+    color: none;
+    border-color: none;
+    padding: 2%;
+}
+
+.aside__boton__estilo{
+    font-family: zeyada;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 300%;
+    padding:0%;
+    line-height:0.5;
+    
+}
+}
+@media only screen and (max-width:1325px) {
+    h1{
+        font-size: 155%;
+   }
+} 
