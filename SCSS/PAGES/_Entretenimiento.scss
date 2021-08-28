@@ -1,1 +1,29 @@
+.main__container{
+    max-width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding: 2% 20%;
+    background-color: #F1F1ED;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    margin-bottom: 2rem;
+}
 
+.card > div{
+    padding: 2rem;
+    align-content: center;
+}
+
+.card:nth-child(even) img{
+    order: 2;
+}
+
+@media screen and (max-width: 1268px){
+.card{ 
+    display: block;
+}
+}
