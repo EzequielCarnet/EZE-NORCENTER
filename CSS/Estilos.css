@@ -388,7 +388,7 @@ footer h2 {
   max-width: 100%;
   margin: auto;
   overflow: auto;
-  padding: 2% 20%;
+  padding: 2% 15%;
   background-color: #F1F1ED;
 }
 
@@ -416,6 +416,13 @@ footer h2 {
 @media screen and (max-width: 1268px) {
   .card {
     display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main__container {
+    padding: 0%;
+    margin: 0%;
   }
 }
 
