@@ -38,6 +38,8 @@ h1 {
 #img__size {
   width: 78%;
   border: 1px solid slategrey;
+  -webkit-box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 1326px) {
