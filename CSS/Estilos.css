@@ -19,29 +19,25 @@ h1 {
 .SECTION {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 30%;
-      grid-template-columns: 30% 30%;
-  -ms-grid-rows: 18% 18% 18% 18% 18%;
-      grid-template-rows: 18% 18% 18% 18% 18%;
-  grid-row-gap: 1.5%;
-  grid-column-gap: 2%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: #F1F1ED;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-shadow: blue;
-          box-shadow: blue;
+  justify-items: center;
 }
 
-img {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  height: 100%;
-  width: 100%;
+#img__contenedor {
+  width: 83%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F1F1ED;
+}
+
+#img__size {
+  width: 78%;
+  border: 1px solid slategrey;
 }
 
 @media screen and (min-width: 1326px) {
@@ -53,25 +49,16 @@ img {
     font-size: 62.5%;
   }
   .aside__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     position: absolute;
     width: 98vw;
     height: 4vh;
   }
   .aside__boton {
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
     width: 11%;
-    height: 82%;
-    margin-left: 82%;
-    margin-top: -142%;
+    height: 28%;
+    margin-left: 62%;
+    margin-top: -105%;
     color: none;
     border-color: none;
     padding: 2%;
@@ -363,16 +350,10 @@ footer h2 {
   .aside__boton {
     position: -webkit-sticky;
     position: sticky;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
     width: 15%;
     height: 100%;
     margin-left: 60%;
-    margin-top: -156%;
+    margin-top: -85%;
     border-radius: 2rem;
     padding: 2%;
   }
@@ -407,6 +388,15 @@ footer h2 {
       align-content: center;
 }
 
+img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 100%;
+  width: 100%;
+}
+
 .card:nth-child(even) img {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -423,6 +413,7 @@ footer h2 {
   .main__container {
     padding: 0%;
     margin: 0%;
+    padding-top: 4%;
   }
 }
 
@@ -528,7 +519,7 @@ section div img {
   -ms-flex-line-pack: center;
       align-content: center;
   width: 73%;
-  height: 81%;
+  height: 75%;
 }
 
 div p {
