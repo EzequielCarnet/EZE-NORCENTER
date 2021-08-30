@@ -21,8 +21,8 @@ h1 {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   background-color: #F1F1ED;
   justify-items: center;
 }
@@ -58,7 +58,7 @@ h1 {
     width: 11%;
     height: 28%;
     margin-left: 62%;
-    margin-top: -105%;
+    margin-top: -163%;
     color: none;
     border-color: none;
     padding: 2%;
@@ -353,7 +353,7 @@ footer h2 {
     width: 15%;
     height: 100%;
     margin-left: 60%;
-    margin-top: -85%;
+    margin-top: -180%;
     border-radius: 2rem;
     padding: 2%;
   }
@@ -361,7 +361,7 @@ footer h2 {
 
 @media screen and (max-width: 364px) {
   .aside__boton {
-    margin-top: -164%;
+    margin-top: -195%;
   }
 }
 
