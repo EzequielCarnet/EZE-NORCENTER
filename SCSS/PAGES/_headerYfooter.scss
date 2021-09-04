@@ -66,8 +66,9 @@ footer{
      justify-content: left;
      align-items: center;
      width: 30%;
+     
     }
-.footer__p{   
+footer div p{   
     display: inline-block; 
     color: beige;
     font-size: small;
@@ -215,14 +216,33 @@ footer h2{
         position: sticky;
         width: 15%;
         height: 100%;
-        margin-left: 60%;
-        margin-top: -180%; 
+        margin-left: 82%;
+        margin-top: -185%; 
         border-radius: 2rem;
         padding: 2%;
    }
 }  
-
-@media screen and (max-width:364px){
-    .aside__boton{ margin-top:-195%;
+@media only screen and (max-width:1250px) {
+    .aside__boton{ margin-top:-190%;
 }   
-}
+}  
+
+@media only screen and (min-width:565px) and (max-width:1080px) {
+    .aside__boton{ margin-top:-201%;
+}   
+} 
+
+@media only screen and (min-width:460px) and (max-width:564px) {
+    .aside__boton{ margin-top:-215%;
+}   
+}  
+
+@media only screen and (min-width:331px) and (max-width:446px) {
+    .aside__boton{ margin-top:-240%;
+}   
+}  
+
+@media only screen and (min-width:200px) and (max-width:330px) {
+    .aside__boton{ margin-top:-270%;
+}   
+}  

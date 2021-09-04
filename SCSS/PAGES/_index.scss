@@ -15,26 +15,39 @@ h1{
 
 .SECTION{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  
-    background-color: #F1F1ED;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
     justify-items: center;
-
-
-   
-}
-#img__contenedor{
-    width: 83%;
+    height: -15%;
+    align-content: center;
+    justify-content: center;
     align-items: center;
-    background-color: #F1F1ED;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#img__contenedor{
+    width: 100%;
+    align-items: flex-end;
+    background-color: white;
    
 }
 
 #img__size{
-    width: 78%;
+    width: 100%;
+    height: 100%;
     border: 1px solid slategrey;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
-}    
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+} 
+
+#img__size:hover{
+    border: 2px solid slategrey; 
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.5);
+    filter: opacity(.8);
+    filter: sepia(.5);
+}
 
 
 @media screen and (min-width:1326px) {     
@@ -58,7 +71,7 @@ h1{
     position: fixed;
     width: 11%;
     height: 28%;
-    margin-left: 62%;
+    margin-left: 87%;
     margin-top: -163%; 
     color: none;
     border-color: none;
