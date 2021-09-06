@@ -62,6 +62,76 @@ h1 {
           filter: opacity(0.8);
   -webkit-filter: sepia(0.5);
           filter: sepia(0.5);
+  cursor: pointer;
+}
+
+.lightbox {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.lightbox__move {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.lightbox__show {
+  height: 70%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .2s .4s;
+  transition: -webkit-transform .2s .4s;
+  transition: transform .2s .4s;
+  transition: transform .2s .4s, -webkit-transform .2s .4s;
+}
+
+.lightbox__scale {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.lightbox__p {
+  position: fixed;
+  color: white;
+  bottom: 40px;
+  font-size: 362%;
+  font-family: 'Zeyada';
+}
+
+.bx.bx-x {
+  position: absolute;
+  color: white;
+  top: 20px;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1326px) {

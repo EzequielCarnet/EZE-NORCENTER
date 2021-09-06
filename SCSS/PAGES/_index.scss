@@ -47,6 +47,57 @@ h1{
     box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.5);
     filter: opacity(.8);
     filter: sepia(.5);
+    cursor: pointer;
+}
+
+.lightbox{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    transform: translate(-100%);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease-in;
+}
+
+.lightbox__move{
+    transform:translateX(0);
+}
+.lightbox__show{
+    height: 70%;
+    width: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform:scale(0);
+    transition: transform .2s .4s;
+    
+}
+.lightbox__scale{
+    transform: scale(1);
+}
+
+
+
+.lightbox__p{
+    position: fixed;
+    color: white;
+    bottom: 40px;
+    font-size: 362%;
+    font-family: 'Zeyada';
+}
+
+.bx.bx-x{
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 
