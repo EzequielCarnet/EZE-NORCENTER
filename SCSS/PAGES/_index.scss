@@ -5,10 +5,10 @@ h1{
     font-family: handlee;
     font-weight: lighter;
     font-size: 250%;
-    background-color:rgba(124, 79, 56, 0.2);
     text-align: center;
-    background-image: linear-gradient( #16222a,#3a6073);
+    background-image: linear-gradient(#616263, #251f1f);
     margin-bottom: 0%;
+    height: 2%;
   
 
 }
@@ -25,6 +25,7 @@ h1{
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #F1F1ED;;
     
 }
 
@@ -39,7 +40,7 @@ h1{
     width: 100%;
     height: 100%;
     border: 1px solid slategrey;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgb(43, 40, 40);
 } 
 
 #img__size:hover{
