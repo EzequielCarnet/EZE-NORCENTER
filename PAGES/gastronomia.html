@@ -6,6 +6,7 @@
     <meta name="description" content="Norcenter es un shopping de diseño y decoracion con entretenimiento para la familia">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../CSS/bootstrap.css">
     <link rel="stylesheet" href="../CSS/Estilos.css">
@@ -42,9 +43,34 @@
             </div>
         </div>  
     </header>
-    <section>
-      
-    </section>
+    <h1>Gastronomía</h1>
+      <main class="gastro__main__container">
+        <section class="card">
+          <img src="../Imagenes/norcenterfachada.jpg" alt="Norcenter">
+          <div>
+          <p>En Norcenter vas a encontrar una oferta gastronómica de calidad para complementar tu visita.</p>
+          </div>
+        </section>
+        <section class="card " data-aos="fade-right">
+          <img src="../Imagenes/Fotos Frentes Locales/R2Argentano.jpg" alt="argentano resto">
+          <div>
+          <p>Para empezar no podía faltar un restorant t{ipico crillo con las mejores carnes de nuestro país. Excelente atención y amplio lugar y tranquilidad para planificar tu nuevo hogar!</p>
+          </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+          <img src="../Imagenes/Fotos Frentes Locales/fotogourmet21.jpg" alt="Espaciogourmet">
+          <div>
+          <p>Dsiponemos también de un espacio Gourmet amplio con las mejores marcas de fast food de la zona ideal para hacer una parada rápida y seguir visitando nuestros locales de disño exclusivos o disfrutar de una pelicula en nuestros cines Showcase.</p>
+          </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/MC DONALDS.jpg" alt="MCDONALDS">
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/mostaza.jpg" alt="mostaza">
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/SR PIZZA.jpg" alt="zrpizza"> 
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/CHINA DELI.jpg" alt="china dely">       
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/CHUNGO.jpg" alt="chungo">        
+          <img class="gastro__img" src="../Imagenes/Fotos Frentes Locales/EL CAPITAN.jpg" alt="el capitan">
+      </main>
     <footer>
       <div class="footer__copy"> 
         <p>Copyright 2021</p>
@@ -61,6 +87,11 @@
           </div>
       </div>
     </footer>
-<script src="../js/bootstrap.min.js"></script>   
+<script src="../js/bootstrap.min.js"></script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:400,
+            duration:900});
+</script>  
 </body>
 </html>
