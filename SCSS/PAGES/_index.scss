@@ -58,7 +58,7 @@ h1{
     top: 0;
     left:0;
     transform: translate(-100%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,13 +69,15 @@ h1{
     transform:translateX(0);
 }
 .lightbox__show{
-    height: 70%;
+    height: 60%;
     width: auto;
     display: flex;
     justify-items: center;
     align-items: center;
     transform:scale(0);
     transition: transform .2s .4s;
+    box-shadow: 0px 1px 6px 2px #fffdfd;
+    border: 1px solid grey;
     
 }
 .lightbox__scale{
@@ -144,5 +146,9 @@ h1{
 @media only screen and (max-width:1325px) {
     h1{
         font-size: 155%;
+   }
+   .lightbox__p{
+    bottom: 25px;
+    font-size: 207%; 
    }
 } 
