@@ -676,7 +676,7 @@ img {
   -ms-flex-line-pack: center;
       align-content: center;
   overflow: hidden;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 4%;
 }
 
@@ -686,14 +686,17 @@ img {
     display: grid;
     -ms-grid-columns: 70%;
         grid-template-columns: 70%;
-    -ms-grid-rows: 3fr 2fr 1%;
-        grid-template-rows: 3fr 2fr 1%;
+    -ms-grid-rows: 3fr 2fr;
+        grid-template-rows: 3fr 2fr;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
     overflow: hidden;
+    font-size: 1rem;
+  }
+  .btn-lg {
     font-size: 1rem;
   }
 }
