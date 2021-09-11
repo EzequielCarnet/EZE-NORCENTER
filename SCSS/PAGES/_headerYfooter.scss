@@ -1,3 +1,4 @@
+/* inicio header y footer*/
 .Header__fondo{
     background-image: url("../Imagenes/living2.jpg");
     background-size: 100%; 
@@ -54,65 +55,82 @@
 }
 
 footer{
-     height: 17vh;
-     background-color: rgb(41, 40, 39);
-     display: flex;
-     flex-direction: row;
-     justify-content:space-around;
-     background-image: linear-gradient(#1a1616,#444546);
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(41, 40, 39);
+    flex-direction: row;
+    background-image: linear-gradient(#1a1616,#444546);
+    height: 100%;
+    padding: 3%;
      
  }
+ .footer__logo{
+    width: 80%;
+    height: auto;   
+}
 
-.footer__copy{
-     display: flex;
-     justify-content: left;
-     align-items: center;
-     width: 30%;
-     
-    }
-.footer__div__p{   
-    display: inline-block; 
-    color: WHITE;
-    font-size: medium;
+ footer div p{
+    color: whitesmoke;
     font-family: mandali;
-     
-     
+    width: max-content;
 }
 
 
 .footer__redes{
-    width: 30%;
+    width: 100%;
      display:flex;
-     flex-direction: row;
-     justify-content:space-around;
+     flex-direction: column;
+     justify-content:space-evenly;
      align-items: center;  
 }
 
-.footer__sitemap{
-    width: 40%;
+.iconos__redes{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-evenly;
 }
-
-footer ul li a{
+footer a{
     text-decoration: none;
     border-radius: none;
-}
-
-footer ul li a:hover{
-    position:relative;
-    color:none;
-    transform: none;
-    font-family: none;
+    display: flex;
+    align-items: self-end;
+    color: rgb(214, 214, 190);
     font-size: medium;
-    font-weight: bolder;  
-    height: 3em;
+    height: 2em;
+    transition: cubic-bezier(1, 0, 0, 1);
     
 }
 
-footer h2{
-    font-size: medium;
+footer a:hover{
+    color: red;
+              
 }
+
+.iconos__redes a:hover{
+    transform: scale(1.2);
+}
+
+.footer__sitemap{
+     width: 50%;
+     display:flex;
+     flex-direction: column;
+     justify-content:space-evenly;
+     align-items: center; 
+     
+}
+
+
+.newsletter{
+    display: flex;
+    width: 100%;
+}
+.form{
+    width: 100%;
+}
+
 @media screen and (min-width:1326px) {     
     *{
          margin: 0;
@@ -171,7 +189,7 @@ footer h2{
          
     }
     
-    a{   
+    header a{   
          color:rgba(192, 74, 5, 0.979);
          padding: 0em;
          width: 11em; 
@@ -183,7 +201,7 @@ footer h2{
 
        
     
-    a:hover{
+    header a:hover{
          position:relative;
          color:#ce1111;
          transform: scale(1.4);
@@ -214,9 +232,48 @@ footer h2{
         
 
     }
+
+    footer div p{
+        color: whitesmoke;
+        font-family: mandali ;
+    }
+
+    
+    
+    .footer__logo{
+     width: 50%;
+     height: auto;   
+    }
+    .newsletter{
+        width: 70%;
+    }
 }
 
-
+@media only screen and (max-width:788px) {
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items:inherit;
+}
+    .footer__logo {
+        width: 50%;
+        height: auto;
+}
+    .sitemap{
+        display: flex;
+        justify-content: center;
+}
+.contenedor__newsletter{
+    display: flex;
+}
+.newsletter{
+    width: 100%;
+}
+.form-control-lg{
+    font-size: 1rem;
+}
+}
 @media only screen and (max-width:1325px) {
     .header__renovaTuCasa{
          display: absolute;
@@ -232,6 +289,7 @@ footer h2{
     margin-bottom: -9%;
     
     }
+    
 }
 @media only screen and (max-width:1325px) {
     h1{
@@ -253,9 +311,12 @@ footer h2{
         border-radius: 2rem;
         padding: 2%;
    }
-}  
+}
+
 @media only screen and (max-width:1250px) {
     .aside__boton{ margin-top:-190%;
+    
+  
 }   
 }  
 
@@ -278,3 +339,4 @@ footer h2{
     .aside__boton{ margin-top:-270%;
 }   
 }  
+// fin header y footer

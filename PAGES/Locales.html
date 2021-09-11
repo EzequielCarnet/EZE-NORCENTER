@@ -42,6 +42,7 @@
             </div>
         </div>  
     </header>
+    <!-- esta parte del código corresponde a la seccion de la galería. son las ventanas modales. las puse antes del SECCION para que se vizualice correctamente en la pagaina -->
      <div class="modal fade animate__animated animate__zoomInDown" id="mihran" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -435,6 +436,9 @@
       </div>
     </div>
     <h1>Locales</h1>
+    <!-- fin de la parte del código correspondiente a las ventanas modales -->
+
+    <!-- inicio del SECCION -->
     <section class="section">
       <div >
         <img src="../Imagenes/Logos locales/AnyConv.com__LogoMihran-1200x1200.jpg" alt="">
@@ -662,20 +666,46 @@
       </div>
     </section>
     <footer>
-      <div class="footer__copy"> 
-        <p>Copyright 2021</p>
-      </div>
       <div class="footer__redes">
-        <div>
-          <a href="https://es-la.facebook.com/NorcenterLifeStyleMall/"target="_blank" ><img src="../Icons/facebook_socialnetwork_17442.png" alt=""></a>
+        <img class="footer__logo" src="../Imagenes/logonorcenter.png" alt="norcenter"> 
+        
+        <div class="iconos__redes">
+          <div>
+            <a href="https://es-la.facebook.com/NorcenterLifeStyleMall/"target="_blank" ><img src="../Icons/facebook_socialnetwork_17442.png" alt="facebook"></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/norcenterlifestylemall/?hl=es-la" target="_blank"><img src="../Icons/Instagram_icon-icons.com_66804.png" alt="instagram"></a>
+          </div>
+          <div>
+            <a href="https://ar.pinterest.com/cnorcenter/" target="_blank"><img src="../Icons/pinterest_19134.png" alt="pinterest"></a>
+          </div>
         </div>
-        <div>
-          <a href="https://www.instagram.com/norcenterlifestylemall/?hl=es-la" target="_blank"><img src="../Icons/Instagram_icon-icons.com_66804.png" alt=""></a>
-        </div>
-        <div>
-          <a href="https://ar.pinterest.com/cnorcenter/" target="_blank"><img src="../Icons/pinterest_19134.png" alt=""></a>
-        </div>
-    </div>
+      </div>
+      <div class="sitemap">
+        <ul>
+          <li class="footer__sitemap">
+            <p>SITE MAP</p>
+            <a class="" aria-current="page"  href="../index.html" id="">HOME</a>
+            <a class="" href="../PAGES/sobreNosotros.html">Nosotros</a>
+            <a class="" href="./PAGES/Locales.html">Locales</a>
+            <a class="" href="../PAGES/gastronomia.html">Gastronomia</a>
+            <a class="" href="../PAGES/entretenimiento.html">Showcase</a>             
+            <a class="" href="../PAGES/Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contenedor__newsletter">
+        <article class="newsletter" id="">
+          <form method="get" class="form"> 
+            <p>NEWSLETTER</p> 
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input class="form-control form-control-lg" type="text" placeholder="nombre@ejemplo.com" aria-label=".form-control-lg example">
+            <button type="submit" class="btn btn-secondary btn-lg">Suscribite</button>
+          </form>
+        </article>
+      </div>   
     </footer>
 <script src="../js/bootstrap.min.js"></script>   
 </body>
