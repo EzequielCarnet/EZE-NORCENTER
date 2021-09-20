@@ -21,13 +21,11 @@ h1 {
 .SECTION {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 20% 20%;
-      grid-template-columns: 20% 20% 20%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 40px;
   justify-items: center;
-  height: -15%;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: center;
@@ -41,17 +39,9 @@ h1 {
   background-color: #F1F1ED;
 }
 
-#img__contenedor {
-  width: 100%;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  background-color: white;
-}
-
 #img__size {
-  width: 100%;
-  height: 100%;
+  width: 62%;
+  height: 93%;
   border: 1px solid slategrey;
   -webkit-box-shadow: 0 0.5rem 1rem #2b2828;
           box-shadow: 0 0.5rem 1rem #2b2828;
@@ -746,8 +736,8 @@ img {
 .section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 20% 20% 20%;
-      grid-template-columns: 20% 20% 20% 20%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 10px;
