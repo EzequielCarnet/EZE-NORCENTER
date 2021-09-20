@@ -25,15 +25,6 @@ h1 {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #F1F1ED;
